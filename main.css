@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+*{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+body{
+    background-image: url("imagens/nature-back.jpg");
+    background-size: 100vh;
+    background-attachment: fixed;
+
+}
+
+
+
+section{
+   
+    margin: 0%;
+    padding-bottom: 27%;
+    position: relative;
+    
+}
+
+#pic1{
+position: absolute;
+left: 2%;
+top: -1%;
+transform: translate(0%, 26%);
+margin: 0%;
+}
+#pic2{
+position: absolute;
+right: 2%;
+top: -1%;
+transform: translate(0%, 26%);
+margin: 0%;
+}
+#pic3{
+    position: absolute;
+margin: 0%;
+    right: 42%;
+    top: -1%;
+    transform: translate(0%, 26%);  
+}
+
+.img{
+    border-color: black;
+    border: 2px;
+    border-style: solid;
+border-radius: 5px;
+margin-right: 10%;
+width: 200px;
+height: 130px;
+}
+
+#img1{background-image: url("imagens/bluemoon.png");
+    background-size: 100% 100%;}
+#img2{background-image: url("imagens/the\ world.png");
+    background-size: 100% 100%;}
+#img3{background-image: url("imagens/sunsetwebp.png");
+    background-size: 100% 100%;}
+
+.img:hover{background-color: yellow;}
+.img:active{background-color: red;}
+
+main{
+    
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 0%;
+  width: 70%;
+  font-size: small;
+  
+}
