@@ -19,12 +19,15 @@ section{
     
 }
 
+
+
 #pic1{
 position: absolute;
 left: 2%;
 top: -1%;
 transform: translate(0%, 26%);
 margin: 0%;
+
 }
 #pic2{
 position: absolute;
@@ -37,7 +40,7 @@ margin: 0%;
     position: absolute;
 margin: 0%;
     right: 42%;
-    top: -1%;
+    top: 3%;
     transform: translate(0%, 26%);  
 }
 
@@ -68,7 +71,7 @@ main{
   border: 1px solid black;
   margin: auto;
   margin-top: 0%;
-  width: 70%;
+  width: 60%;
   font-size: small;
   
 }
